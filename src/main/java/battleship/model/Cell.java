@@ -24,7 +24,7 @@ public class Cell {
 
     public void setHit(boolean hit) {
         isHit = hit;
-        if (hit && ship != null) {
+        if (ship != null) {
             ship.decreaseNumberOfLives();
         }
     }
